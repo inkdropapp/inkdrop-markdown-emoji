@@ -1,5 +1,6 @@
+'use babel'
+
 import emoji from 'markdown-it-emoji'
-import { CompositeDisposable } from 'inkdrop'
 
 module.exports = {
   configDefaults: {},
