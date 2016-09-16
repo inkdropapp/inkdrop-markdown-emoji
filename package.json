@@ -8,13 +8,16 @@
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
   "dependencies": {
-    "markdown-it-emoji": "^1.2.0"
+    "remark-gemoji-to-emoji": "^1.0.0"
   },
   "engine": {
     "inkdrop": ">= 0.9.1"
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": [ "inkdrop", "$" ]
+    "globals": [
+      "inkdrop",
+      "$"
+    ]
   }
 }

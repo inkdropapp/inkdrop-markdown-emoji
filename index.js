@@ -1,16 +1,13 @@
-'use babel'
-
-import emoji from 'markdown-it-emoji'
+const emoji = require('remark-gemoji-to-emoji')
 
 module.exports = {
-  configDefaults: {},
-
   activate () {
-    const { MDEPreview } = inkdrop.components.classes
-    return MDEPreview.renderer.use(emoji)
+    const MDEPreview = inkdrop.components.classes.MDEPreview
+    return MDEPreview.remarkPlugins.push(emoji)
   },
-
   deactivate () {
+    MDEPreview.remarkPlugins = MDEPreview.remarkPlugins.filter(function (plugin) {
+      return plugin !== emoji
+    })
   }
-
 }
