@@ -9,3 +9,6 @@ Also supports emoticons [shortcuts](https://github.com/markdown-it/markdown-it-e
 ipm install markdown-emoji
 ```
 
+## Supported Gemoji
+
+See [wooorm/gemoji](https://github.com/wooorm/gemoji/blob/master/support.md).
