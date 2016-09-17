@@ -8,6 +8,7 @@
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
   "dependencies": {
+    "remark-gemoji": "^1.0.1",
     "remark-gemoji-to-emoji": "^1.0.0"
   },
   "engine": {
