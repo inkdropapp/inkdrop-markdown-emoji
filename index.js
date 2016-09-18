@@ -8,7 +8,7 @@ module.exports = {
   },
   deactivate () {
     MDEPreview.remarkPlugins = MDEPreview.remarkPlugins.filter(function (plugin) {
-      return plugin !== emoji
+      return plugin !== emoji && plugin !== gemoji
     })
   }
 }
