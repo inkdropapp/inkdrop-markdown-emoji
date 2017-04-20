@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "name": "markdown-emoji",
   "description": "Add emoji syntax support to Inkdrop markdown editor",
   "main": "index",
@@ -8,11 +8,11 @@
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
   "dependencies": {
-    "remark-gemoji": "^1.0.1",
-    "remark-gemoji-to-emoji": "^1.0.0"
+    "remark-gemoji": "^3.0.0",
+    "remark-gemoji-to-emoji": "^1.1.0"
   },
   "engine": {
-    "inkdrop": ">= 0.9.1"
+    "inkdrop": "^3.4.0"
   },
   "standard": {
     "parser": "babel-eslint",
