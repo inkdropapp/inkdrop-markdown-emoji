@@ -16,6 +16,3 @@ See [gemoji's documentation](https://github.com/wooorm/gemoji/blob/master/suppor
 ipm install markdown-emoji
 ```
 
-## Supported Gemoji
-
-See [wooorm/gemoji](https://github.com/wooorm/gemoji/blob/master/support.md).
