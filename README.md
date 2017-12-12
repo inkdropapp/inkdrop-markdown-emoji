@@ -1,7 +1,14 @@
 # inkdrop-markdown-emoji
-Add emoji syntax to Inkdrop markdown editor with all github supported emojies.
+Add gemoji (**G**itHub **Emoji**) syntax to Inkdrop markdown editor with all github supported emojies. 
 
-Also supports emoticons [shortcuts](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/shortcuts.js) like :), :-(, and other. See the full list in link above.
+## Supported Gemoji
+
+See [gemoji's documentation](https://github.com/wooorm/gemoji/blob/master/support.md)
+
+## Example
+
+ * `:smile:` → 😄
+ * `:yum:` → 😋
 
 ## Install
 
