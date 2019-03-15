@@ -1,17 +1,16 @@
+const { markdownRenderer } = require('inkdrop')
 const emoji = require('remark-gemoji-to-emoji')
 const gemoji = require('remark-gemoji')
 
 module.exports = {
   activate () {
-    const { MDEPreview } = inkdrop.components.classes
-    if (MDEPreview) {
-      return MDEPreview.remarkPlugins.push(gemoji, emoji)
+    if (markdownRenderer) {
+      return markdownRenderer.remarkPlugins.push(gemoji, emoji)
     }
   },
   deactivate () {
-    const { MDEPreview } = inkdrop.components.classes
-    if (MDEPreview) {
-      MDEPreview.remarkPlugins = MDEPreview.remarkPlugins.filter(function (plugin) {
+    if (markdownRenderer) {
+      markdownRenderer.remarkPlugins = markdownRenderer.remarkPlugins.filter(function (plugin) {
         return plugin !== emoji && plugin !== gemoji
       })
     }
