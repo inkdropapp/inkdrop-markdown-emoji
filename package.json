@@ -11,7 +11,7 @@
     "remark-gemoji": "^4.0.2",
     "remark-gemoji-to-emoji": "^1.1.0"
   },
-  "engine": {
+  "engines": {
     "inkdrop": "^4.x"
   }
 }
