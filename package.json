@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "markdown-emoji",
-  "description": "Add emoji syntax support to Inkdrop markdown editor",
+  "description": "Add emoji syntax support to Markdown",
   "main": "index",
   "repository": {
     "type": "git",
