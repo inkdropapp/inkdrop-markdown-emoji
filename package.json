@@ -2,14 +2,24 @@
   "version": "1.0.0",
   "name": "markdown-emoji",
   "description": "Add emoji syntax support to Markdown",
-  "main": "index",
+  "main": "./lib/index",
+  "scripts": {
+    "build": "rm -r lib && rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -c --watch --bundleConfigAsCjs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/inkdropapp/inkdrop-markdown-emoji.git"
   },
-  "dependencies": {
-    "remark-gemoji": "^4.0.2",
-    "remark-gemoji-to-emoji": "^1.1.0"
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.0.0",
+    "remark-gemoji": "^7.0.1",
+    "rollup": "^3.26.3"
   },
   "engines": {
     "inkdrop": "^5.x"
